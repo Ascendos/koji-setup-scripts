@@ -1,0 +1,9 @@
+These files go in the following places.
+You should probrubly check to make sure you need to move in kojihub.conf
+mergerepos allows the x86_64 repo's to have 32 bit packages.
+
+/etc/httpd/conf.d/kojihub.conf
+/usr/share/koji-web/static/koji.css
+/usr/share/koji-web/static/images/koji.ico
+/usr/share/koji-web/static/images/koji.png
+/usr/libexec/kojid/mergerepos
